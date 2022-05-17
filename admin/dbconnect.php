@@ -9,10 +9,10 @@ $database = "food-order";
 
 $connect = mysqli_connect($server, $user, $password, $database);
 
-// if($connect){
-//     echo "connected";
-// }else{
-//     echo "not connected";
-// }
+if($connect){
+    echo "<script>alert('Database Connected');</script>";
+}else{
+    echo "<script>alert('Database Connected');</script>";
+}
 
 ?>
